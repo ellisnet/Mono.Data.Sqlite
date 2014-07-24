@@ -148,7 +148,7 @@ namespace Mono.Data.Sqlite
     /// </item>
     /// </list>
     /// </remarks>
-    public sealed class SqliteConnection : DbConnection, ICloneable
+    public sealed class SqliteConnection : DbConnection, ICloneable, IDisposable
     {
         /// <summary>
         /// State of the current connection

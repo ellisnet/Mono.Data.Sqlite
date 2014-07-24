@@ -16,7 +16,7 @@ namespace Mono.Data.Sqlite
   /// <summary>
   /// SQLite implementation of DbCommand.
   /// </summary>
-  public sealed class SqliteCommand : DbCommand, ICloneable
+  public sealed class SqliteCommand : DbCommand, ICloneable, IDisposable
   {
     /// <summary>
     /// The command text this command is based on
